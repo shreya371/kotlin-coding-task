@@ -16,4 +16,10 @@ class WrestlerService {
     fun countOfWrestlers(){
         wrestlerUtil.count()
     }
+    
+    fun countOfWeight(){
+        wrestlerUtil.countweight()
+    }
+    
+    
 }
