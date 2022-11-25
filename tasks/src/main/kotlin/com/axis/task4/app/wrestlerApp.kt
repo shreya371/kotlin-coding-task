@@ -31,8 +31,8 @@ fun main(){
     */
 
 
-    println("-----------MENU--------------------")
-    println("1.Add Wrestler \n2.Display All Wrestlers\n3.count of wrestlers whose age is > 35\n4.Exit")
+   println("-----------MENU--------------------")
+    println("1.Add Wrestler \n2.Display All Wrestlers\n3.count of wrestlers whose age is > 35\n4.count of wrestlers whose weight is >200\n5)exit")
 
     println("enter choice")
     var choice=sc.nextInt()
@@ -63,6 +63,10 @@ fun main(){
                 wrestlerService.countOfWrestlers()
             }
             4->{
+                wrestlerService.countOfWeight()
+
+            }
+            5->{
                 println("Program end")
                 System.exit(0)
             }
@@ -70,13 +74,12 @@ fun main(){
 
     }
         println("------------Process completed-------------")
-        println("1.Add Wrestler \n2.Display All Wrestlers\n3.count of wrestlers whose age is > 35\n4.Exit")
+        println("1.Add Wrestler \n2.Display All Wrestlers\n3.count of wrestlers whose age is > 35\n4.count of wrestlers whose weight is >200\n5)exit")
 
         println("enter choice to continue")
         var ch =sc.nextInt()
         choice = ch
 }
-
 
 
 }
