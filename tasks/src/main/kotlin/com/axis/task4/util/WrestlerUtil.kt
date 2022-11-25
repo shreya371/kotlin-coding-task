@@ -28,5 +28,11 @@ class WrestlerUtil {
         var countList=wrestlerList.count{it.age > 35}
         println("count of wrestlers whose age is > 35 : $countList")
     }
+    
+    fun countweight(){
+        var countWeight=wrestlerList.count{it.weight > 200}
+        println("count of wrestlers whose weight is > 200 : $countWeight")
+
+    }
 
 }
